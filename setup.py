@@ -23,7 +23,7 @@ setup(name='kivymd',
       package_data={
           'kivymd': ['images/*.png', 'images/*.jpg', 'images/*.atlas',
                      'vendor/*.py',
-                     'fonts/*.ttf', 'vendor/circleLayout/*.py',
+                     'fonts/*.ttf', 'fonts/*.otf', 'vendor/circleLayout/*.py',
                      'vendor/circularTimePicker/*.py',
                      'vendor/navigationdrawer/*.py']},
       requires=['kivy']

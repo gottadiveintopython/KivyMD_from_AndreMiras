@@ -21,17 +21,17 @@ class MDLabel(ThemableBehavior, Label):
                           'Display4', 'Button', 'Icon'])
 
     # Font, Bold, Mobile size, Desktop size (None if same as Mobile)
-    _font_styles = DictProperty({'Body1': ['Roboto', False, 14, 13],
-                                 'Body2': ['Roboto', True, 14, 13],
-                                 'Caption': ['Roboto', False, 12, None],
-                                 'Subhead': ['Roboto', False, 16, 15],
-                                 'Title': ['Roboto', True, 20, None],
-                                 'Headline': ['Roboto', False, 24, None],
-                                 'Display1': ['Roboto', False, 34, None],
-                                 'Display2': ['Roboto', False, 45, None],
-                                 'Display3': ['Roboto', False, 56, None],
-                                 'Display4': ['RobotoLight', False, 112, None],
-                                 'Button': ['Roboto', True, 14, None],
+    _font_styles = DictProperty({'Body1': ['DefaultJapaneseFont', False, 14, 13],
+                                 'Body2': ['DefaultJapaneseFont', True, 14, 13],
+                                 'Caption': ['DefaultJapaneseFont', False, 12, None],
+                                 'Subhead': ['DefaultJapaneseFont', False, 16, 15],
+                                 'Title': ['DefaultJapaneseFont', True, 20, None],
+                                 'Headline': ['DefaultJapaneseFont', False, 24, None],
+                                 'Display1': ['DefaultJapaneseFont', False, 34, None],
+                                 'Display2': ['DefaultJapaneseFont', False, 45, None],
+                                 'Display3': ['DefaultJapaneseFont', False, 56, None],
+                                 'Display4': ['DefaultJapaneseFont', False, 112, None],
+                                 'Button': ['DefaultJapaneseFont', True, 14, None],
                                  'Icon': ['Icons', False, 24, None]})
 
     theme_text_color = OptionProperty(None, allownone=True,
